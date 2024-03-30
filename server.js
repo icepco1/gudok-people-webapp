@@ -90,7 +90,7 @@ app.post('/checkDuplicateNickname', async function(req, res) {
     }
 });
 
-// 로그인 요청 처리 asdasdasd
+// 로그인 요청 처리 asdasdasdasd
 app.post('/login', async function(req, res) {
     const username = req.body.username;
     const password = req.body.password;
